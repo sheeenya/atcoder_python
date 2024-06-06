@@ -1,0 +1,2 @@
+#int型での複数入力
+a,b,c = map(int,input().split())
