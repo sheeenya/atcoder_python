@@ -3,3 +3,12 @@ a,b,c = map(int,input().split())
 
 #スペース区切りの入力をリストに
 a = list(map(int,input().split()))
+
+#数字を5桁の2進数に
+n = int
+format(n,"05b")
+
+#可変の桁数に
+i = int #元の数字
+bit_len = int #桁数
+binary_string = f"{i:0{bit_len}b}"
