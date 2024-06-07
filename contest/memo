@@ -12,3 +12,8 @@ format(n,"05b")
 i = int #元の数字
 bit_len = int #桁数
 binary_string = f"{i:0{bit_len}b}"
+
+# x が 1, 2, 3 のいずれかであるかを判定する
+x = 2
+print(x in [1, 2, 3])
+→true
