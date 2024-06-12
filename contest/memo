@@ -17,3 +17,25 @@ binary_string = f"{i:0{bit_len}b}"
 x = 2
 print(x in [1, 2, 3])
 →true
+
+#再帰関数
+def f(N):
+    if N ==0:
+        return 0
+    return N + f(N-1)
+
+#文字列を数式として評価する
+eval(str)
+
+#文字列を逆順にする
+s_reversed = ''.join(list(reversed(s)))
+
+#リストをソートする
+a.sort()
+
+#リストを反転する
+a.reverse()
+
+#リストからセットを作成する
+#セットは重複、順番がない
+set(a)
