@@ -23,5 +23,6 @@ for i in range(N):
         if x <dist:
             dist =x
             ans =j+1
+    
     print(ans)
 
