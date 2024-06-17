@@ -16,7 +16,7 @@ for i in range(2**N):
         jdg =[]
         for k in total:
             jdg.append(k[l])
-        if  not "o" in jdg:
+        if  not "o" in jdg: #jdgの中に o が含まれていない場合は次のiまで行きたい
             break
     else: #forでelseを使うと、ループが最後まで実行されたときのみに実行される
         ans = min(len(total),ans)
