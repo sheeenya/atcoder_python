@@ -1,0 +1,62 @@
+[
+  {
+    "color": "brown",
+    "type": "cat",
+    "size": "big",
+    "name": "Spot"
+  },
+  {
+    "color": "white",
+    "type": "cat",
+    "size": "nano",
+    "name": "しろ"
+  },
+  {
+    "color": "black",
+    "type": "cat",
+    "size": "nano",
+    "name": "くろ"
+  },
+  {
+    "color": "gray",
+    "type": "cat",
+    "size": "nano",
+    "name": "アッシュ"
+  },
+  {
+    "color": "lightbrown",
+    "type": "cat",
+    "size": "nano",
+    "name": "とら"
+  },
+  {
+    "color": "brown",
+    "type": "dog",
+    "size": "nano",
+    "name": "Shadow"
+  },
+  {
+    "color": "black",
+    "type": "dog",
+    "size": "nano",
+    "name": "Cooper"
+  },
+  {
+    "color": "white",
+    "type": "dog",
+    "size": "nano",
+    "name": "Chloe"
+  },
+  {
+    "color": "akita",
+    "type": "dog",
+    "size": "nano",
+    "name": "Murphy"
+  },
+  {
+    "color": "gray",
+    "type": "totoro",
+    "size": "nano",
+    "name": "Oscar"
+  }
+]
