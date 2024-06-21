@@ -30,6 +30,13 @@ eval(str)
 #文字列を逆順にする
 s_reversed = ''.join(list(reversed(s)))
 
+#リストを出力する
+x = [1,2,3,4,5]
+print(*x)
+
+x = [str(i) for i in x]
+print(" ".join(x))
+
 #リストをソートする
 a.sort()
 
@@ -42,3 +49,15 @@ set(a)
 
 #リストを連結して文字列に
 print("".join(ans))
+
+#リストaからdupがどこにあるかを検索
+print(a.index(dup))
+#複数をリストとして返す
+print([i for i, x in enumerate(a) if x==dup])
+
+#2個以上のリストから最小公倍数を算出
+def my_lcm_base(x,y):
+    return (x*y)//math.gcd(x,y)
+def my_lcm(*integers):
+    return functools.reduce(my_lcm_base, integers)
+print(my_lcm(*list))
